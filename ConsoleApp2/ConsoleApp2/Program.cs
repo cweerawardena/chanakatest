@@ -13,6 +13,7 @@ namespace ConsoleApp2
         {
 
             string str = "welcome@to-qa-with-experts#.com";
+			var test = "my name is chanaka";
             string replacestr = Regex.Replace(str, "[^a-zA-Z0-9_]+", " ");
             Console.WriteLine(replacestr);
             Console.ReadLine();
